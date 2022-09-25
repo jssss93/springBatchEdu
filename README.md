@@ -1,7 +1,3 @@
-# springBatchEdu
-SpringBatch 교육용자료
-
-
 # 개요
 
 ## 배치 어플리케이션이란?
@@ -28,7 +24,7 @@ Job, Step, Flow, Tasklet, JobInstance, Jobexecution, StepExecution, 등.. 이러
 
 각 도메인들의 용어적 개념과 도메인들간의 관계를 이해함으로써 간단한 Job부터 복잡한 Job까지 원하는 Job을 체계적으로 구성하는 방법을 숙지
 
-![img](https://cdn.inflearn.com/public/files/courses/327744/a1eeb5d6-ad49-457b-970d-0cf88ee90976/%EB%8F%84%EB%A9%94%EC%9D%B8%20%EC%9D%B4%ED%95%B4.PNG)
+![img](.\도메인 이해.PNG)
 
 
 
@@ -36,13 +32,13 @@ Job, Step, Flow, Tasklet, JobInstance, Jobexecution, StepExecution, 등.. 이러
 
 ## JOB
 
-![image-20220921231154561](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921231154561.png)
+![image-20220921231154561](.\image-20220921231154561.png)
 
 
 
 ## JOB Excution
 
-![image-20220921231309735](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921231309735.png)
+![image-20220921231309735](.\image-20220921231309735.png)
 
 status 실행상태
 
@@ -54,17 +50,17 @@ exit_code 실행 결과
 
 
 
-![image-20220921231522972](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921231522972.png)
+![image-20220921231522972](.\image-20220921231522972.png)
 
 ## StepExcution
 
 
 
-![image-20220921231616925](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921231616925.png)
+![image-20220921231616925](.\image-20220921231616925.png)
 
 ## JobRepository, JobLauncher
 
-![image-20220921231719931](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921231719931.png)
+![image-20220921231719931](.\image-20220921231719931.png)
 
 ## MetaData
 
@@ -74,7 +70,7 @@ exit_code 실행 결과
 
 물론, 직접 sql 쿼리를 가져다가 수동으로 생성을 해도 되고, 자동으로 생성할 수도 있다. 
 
-![img](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd963727f-102a-4e51-89ea-affc96c7390f%2FUntitled.png&blockId=9d09ba0c-3b8c-4400-b2c1-33beb594ffae)
+![img](.\image)
 
 #### 수동 생성 - 쿼리 복사 후 직접 실행
 
@@ -98,7 +94,7 @@ YAML
 
 •NEVER: 스크립트 항상 실행안하고 내장 DB일 경우 스크립트 생성이 되지 않아 오류가 발생한다. 운영에서는 수동으로 스크립트 생성 후 설정하는 것이 권장된다.
 
-[![img](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F94b91f5c-a9c9-4e49-bc43-2a883c796900%2FUntitled.png&blockId=c0d0f442-6d64-489a-ae6a-3ac39f63ae1b)](https://docs.spring.io/spring-batch/docs/3.0.x/reference/html/metaDataSchema.html)
+[![img](.\image2)](https://docs.spring.io/spring-batch/docs/3.0.x/reference/html/metaDataSchema.html)
 
 #### Job 관련 테이블
 
@@ -274,19 +270,19 @@ SQL
 
 ## ItemRader,Writer,Processor
 
-![image-20220921231810190](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921231810190.png)
+![image-20220921231810190](.\image-20220921231810190.png)
 
 ## 비지니스 로직에 중점을둠
 
 
 
-![image-20220921231945748](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921231945748.png)
+![image-20220921231945748](.\image-20220921231945748.png)
 
 
 
 ## Job의 전체적인 구조
 
-![image-20220921232017770](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921232017770.png)
+![image-20220921232017770](.\image-20220921232017770.png)
 
 
 
@@ -294,7 +290,7 @@ SQL
 
 
 
-![image-20220921232101958](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921232101958.png)
+![image-20220921232101958](.\image-20220921232101958.png)
 
 
 
@@ -302,7 +298,7 @@ SQL
 
 
 
-![image-20220921232144134](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921232144134.png)
+![image-20220921232144134](.\image-20220921232144134.png)
 
 
 
@@ -310,7 +306,7 @@ SQL
 
 
 
-![image-20220921232243262](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921232243262.png)
+![image-20220921232243262](.\image-20220921232243262.png)
 
 이유는 ~~
 
@@ -318,7 +314,7 @@ SQL
 
 
 
-![image-20220921232405586](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921232405586.png)
+![image-20220921232405586](.\image-20220921232405586.png)
 
 
 
@@ -326,23 +322,23 @@ SQL
 
 스프링 배치에서 가장 핵심적인 기능 중에 하나가 바로 청크 기반 프로세싱이다. Chunk 개념을 도입하여 대용량의 데이터를 고성능으로 처리를 할 수 있도록 한다. 여기에 사용되는 API가 ItemReader, ItemProcessor, ItemWriter 이며, 청크 기반 프로세싱의 기본적인 개념과 원리를 학습하고 내부 아키텍처까지 파악한다.
 
-![img](https://cdn.inflearn.com/public/files/courses/327744/f1058404-5dff-4689-9d92-e01da750445f/%EC%B2%AD%ED%81%AC.PNG)
+![img](.\청크.PNG)
 
 
 
 ## ItemProcessor
 
-![image-20220921232439190](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921232439190.png)
+![image-20220921232439190](.\image-20220921232439190.png)
 
 ## Flow
 
 
 
-![image-20220921232531802](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921232531802.png)
+![image-20220921232531802](.\image-20220921232531802.png)
 
-![image-20220921232545200](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921232545200.png)
+![image-20220921232545200](.\image-20220921232545200.png)
 
-![image-20220921232827331](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921232827331.png)
+![image-20220921232827331](.\image-20220921232827331.png)
 
 
 
@@ -350,13 +346,13 @@ SQL
 
 
 
-![image-20220921233108920](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921233108920.png)
+![image-20220921233108920](.\image-20220921233108920.png)
 
 
 
 
 
-![image-20220921233823982](C:\Users\CJS\AppData\Roaming\Typora\typora-user-images\image-20220921233823982.png)
+![image-20220921233823982](.\image-20220921233823982.png)
 
 
 
@@ -364,7 +360,7 @@ SQL
 
 배치 실행에 있어서 오류나 예외는 언제든지 발생할 가능성이 있습니다. 이러한 상황에서 오류로 인한 장애를 미리 예상하고 대비함으로써 배치 서비스가 완전히 중단되는 것이 아닌 일시적인 중단 혹은 예외를 무시하고 다음 단계로 가는 등의 처리를 함으로써 내결함성을 가진 배치 어플리케이션을 어떻게 구성할 수 있는지 학습하게 됩니다. 이와 관련된 기술인 Skip과 Retry 기능에 대한 자세한 내용과 실습을 진행합니다.
 
-![img](https://cdn.inflearn.com/public/files/courses/327744/412a6349-f62c-4073-ab1a-2a47bb5d42aa/%EC%98%A4%EB%A5%98.PNG)
+![img](.\오류.PNG)
 
 
 
@@ -374,7 +370,7 @@ SQL
 
 대용량의 데이터 처리와 시간이 많이 소요되는 배치 처리는 단일 스레드가 아닌 멀티 스레드로 구성하여 동시에 병렬적인 배치 처리를 함으로써 더욱 효율적인 배치 처리가 이루어지도록 한다. 자바의 스레드 모델에 대한 기본적인 개념과 스프링 배치에서 제공하는 멀티 스레드 관련된 기술들을 먼저 이해하고 여러 멀티 스레드 유형의 배치처리 기술들을 익히게 됩니다.
 
-![img](https://cdn.inflearn.com/public/files/courses/327744/8acd7900-7cf0-4b0d-b08a-bb48718bb3df/%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%93%9C.PNG)
+![img](.\멀티스레드.PNG)
 
 
 
