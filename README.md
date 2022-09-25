@@ -24,7 +24,7 @@ Job, Step, Flow, Tasklet, JobInstance, Jobexecution, StepExecution, 등.. 이러
 
 각 도메인들의 용어적 개념과 도메인들간의 관계를 이해함으로써 간단한 Job부터 복잡한 Job까지 원하는 Job을 체계적으로 구성하는 방법을 숙지
 
-
+!
 ![img](./imgs/도메인이해.PNG)
 
 
